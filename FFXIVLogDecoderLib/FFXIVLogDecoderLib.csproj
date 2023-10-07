@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Description>A class for decoding FFXIV chat log files into a human-readable format.</Description>
+    <Version>0.0.1</Version>
+    <Authors>egad13</Authors>
+    <OutputPath>..\build\$(Configuration)\</OutputPath>
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+</Project>

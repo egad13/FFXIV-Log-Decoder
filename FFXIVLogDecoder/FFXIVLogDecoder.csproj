@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyTitle>FFXIV Log Decoder</AssemblyTitle>
+    <Description>A tool for decoding FFXIV chat log files into a human-readable format.</Description>
+    <Version>0.0.1</Version>
+    <Authors>egad13</Authors>
+    <OutputPath>..\build\$(Configuration)\</OutputPath>
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.9.1" />
+    <ProjectReference Include="..\FFXIVLogDecoderLib\FFXIVLogDecoderLib.csproj" />
+  </ItemGroup>
+
+</Project>

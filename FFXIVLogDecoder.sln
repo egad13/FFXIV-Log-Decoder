@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FFXIVLogDecoder", "FFXIVLogDecoder\FFXIVLogDecoder.csproj", "{E049B243-AACF-4576-9A93-CF5080DD5742}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FFXIVLogDecoderLib", "FFXIVLogDecoderLib\FFXIVLogDecoderLib.csproj", "{55206046-A864-4BD7-8E93-68121FAA1C42}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4E22032E-D145-4D11-B8A3-ECECAAD75379}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E049B243-AACF-4576-9A93-CF5080DD5742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E049B243-AACF-4576-9A93-CF5080DD5742}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E049B243-AACF-4576-9A93-CF5080DD5742}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E049B243-AACF-4576-9A93-CF5080DD5742}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55206046-A864-4BD7-8E93-68121FAA1C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55206046-A864-4BD7-8E93-68121FAA1C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55206046-A864-4BD7-8E93-68121FAA1C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55206046-A864-4BD7-8E93-68121FAA1C42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0F1A811-D29E-4EDE-BD43-46ACCB1BD3A5}
+	EndGlobalSection
+EndGlobal
